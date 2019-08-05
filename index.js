@@ -2,7 +2,7 @@
 function countdown(num) {
   let i = 0
   while (i < num+1){
-    console.log(i--)
+    console.log(i++)
   }
 
 
