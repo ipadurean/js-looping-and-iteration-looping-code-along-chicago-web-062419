@@ -7,6 +7,6 @@ function countdown(num) {
 }
 
 function writeCards (array) {
-  for (i=0; i<array.length; i++)
+  for (let i=0; i<array.length; i++)
   console.log(`Thank you ${array[i]}`)
 }
