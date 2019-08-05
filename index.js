@@ -4,6 +4,9 @@ function countdown(num) {
   while (i < num+1){
     console.log(i++)
   }
+}
 
-
+function writeCards (array) {
+  for (i=0; i<array.length; i++)
+  console.log(`Thank you ${array[i]}`)
 }
