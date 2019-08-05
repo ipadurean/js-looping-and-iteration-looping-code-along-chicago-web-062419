@@ -10,6 +10,7 @@ function writeCards (array, string) {
     newArr = []
     for (let i=0; i<array.length; i++)  {
     newArr.push (`Thank you, ${array[i]}, for the wonderful ${string} gift!`);
-    return newArr;
+
     }
+    return newArr;
 }
