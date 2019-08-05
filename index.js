@@ -9,7 +9,7 @@ function countdown(num) {
 function writeCards (array) {
   let i=0;
   while(i<array.length)  {
-    return [`Thank you, ${array[i]}, for the wonderful surprise gifts!`];
+    return [`Thank you, ${array[i]}, for the wonderful surprise gift!`];
     i++
 }
 }
