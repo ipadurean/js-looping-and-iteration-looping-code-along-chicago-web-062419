@@ -7,8 +7,9 @@ function countdown(num) {
 }
 
 function writeCards (array, string) {
+    newArr = []
     for (let i=0; i<array.length; i++)  {
-    return [`Thank you, ${array[i]}, for the wonderful ${string} gift!`];
-    
+    newArr.push (`Thank you, ${array[i]}, for the wonderful ${string} gift!`);
+    return newArr;
     }
 }
