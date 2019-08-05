@@ -7,9 +7,9 @@ function countdown(num) {
 }
 
 function writeCards (array) {
-  let i=0
+  let i=0;
   while(i<array.length)  {
-    console.log(`Thank you ${array[i]}`)
+    console.log(`Thank you ${array[i]}`);
     i++
 }
 }
